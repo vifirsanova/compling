@@ -1,5 +1,6 @@
-# Transformer
+![image](https://github.com/vifirsanova/compling/assets/70071046/ec0bbb38-bf8d-43ef-b79b-3be813b27c38)![image](https://github.com/vifirsanova/compling/assets/70071046/089edfd5-1bea-48e0-9423-5fda1432de66)# Transformer
 ## 3 типа внимания
+![Arrow](https://images.unsplash.com/photo-1497005367839-6e852de72767?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 ### Encoder-Decoder Attention [(Bahdanau et al., 2014)](https://arxiv.org/abs/1409.0473)
 * Моделирование контекста, нейросетевой аналог *выравнивнивания* из статистического машинного перевода.
 * Конкатенация выходных представлений (эмбеддингов) кодера и весов внимания. *Веса внимания* отражают силу связи между каждым входным и выходным токеном.
@@ -13,6 +14,7 @@
 * Позволяет производить *разрешение анафоры* и таким образом находить общеязыковые признаки, подтверждая дистрибутивную гипотезу Харриса. 
 * Основа архитектуры *Transformer*. Поскольку модели обрабатывают большие квадратные матрицы, также применяется метод скалирования (Scaled Dot Product Attention). 
 ## 3 типа моделей
+![Transformer plastic toy](https://images.unsplash.com/photo-1512572525676-f9b59951929e?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 ### Transformer encoder [(Devlin et al., 2018)](https://arxiv.org/abs/1810.04805)
 * **Контекстуальные представления** входных последовательностей.
 * **Задачи**: классификация последовательностей, анализ тональности, извлечение ответов на вопросы.
@@ -26,6 +28,7 @@
 * **Задачи**: суммаризация, машинный перевод.
 * **Пример**: BART, аналог оригинального Transformer, обучался методом денойзинга, подходит для трансфера знаний.
 ## Transfer Learning
+![Network abstraction](https://plus.unsplash.com/premium_photo-1675334896108-56d92f890d25?q=80&w=2123&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 ### Определение
 * Применяем знания, полученные в процессе обучения исходной модели, для повышения производительности целевой модели.
 * Преимущества: решение проблемы ограниченного ресурса, требуется меньше времени на тонкую настройку, высокое качество генерализации.
@@ -36,7 +39,8 @@
 * **CV:** обучаем ResNet на ImageNet открытой предметной области, тонко настраиваем на данных для распознавания лиц.
 * **Robotics:** обучаем 3D-симуляцию робота, тонко настраиваем машину в физическом пространстве.
 * **NLP:** обучаем BERT, тонко настраивает модель для извлечения ответов на вопросы.
-## RLHF 
+## RLHF
+![Laptop and people](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 ### Определение
 * Reinforcement Learning for Human Feedback (RLHF), метод разработки больших языковых моделей на основе отзывов людей; использует элементы обучения с подкреплением.
 * Преимущества: отзывы людей помогают "выравнивать" выдачи модели с намерением пользователя, выраженном в его промпте.
