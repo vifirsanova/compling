@@ -1,4 +1,4 @@
-![image](https://github.com/vifirsanova/compling/assets/70071046/ec0bbb38-bf8d-43ef-b79b-3be813b27c38)![image](https://github.com/vifirsanova/compling/assets/70071046/089edfd5-1bea-48e0-9423-5fda1432de66)# Transformer
+# Transformer
 ## 3 типа внимания
 ![Arrow](https://images.unsplash.com/photo-1497005367839-6e852de72767?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 ### Encoder-Decoder Attention [(Bahdanau et al., 2014)](https://arxiv.org/abs/1409.0473)
